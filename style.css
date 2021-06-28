@@ -43,18 +43,9 @@ body{
     padding: 10px;
 }
 
-.icone-clima{
-    width: 300px;
-    height: 128px;
+.icone-clima img{
+    display: block;
     margin: 0 auto;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-.icone-clima i{
-    margin-top: 15px;
-    font-size: 90px;
-    color: #293251;
 }
 
 .temperatura-valor{

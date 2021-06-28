@@ -41,7 +41,6 @@ function showError(error){
 //Pegar clima pela API
 function getClima(latitude, longitude){
     let api = `https://api.openweathermap.org/data/2.5/weather?lang=pt&lat=${latitude}&lon=${longitude}&appid=${chave}`;
-    console.log(api);
     fetch(api).then(function(response){
       let data = response.json();
       return data;  
@@ -59,6 +58,7 @@ function getClima(latitude, longitude){
 
     //Mostrar o clima
     function displayWeather(){
+        iconeElemento.innerHTML = `<img src="icons/${clima.iconId}.png" alt="">`;
         temperaturaElemento.innerHTML = `${clima.temperatura.value}°<span>C</span>`;
         descricaoElemento.innerHTML = clima.description;
         localizacaoElemento.innerHTML = `${clima.city}, ${clima.country}`;
