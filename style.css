@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 300px;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.titulo-app{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.titulo-app p{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.6em;
+    margin: 0 auto;
+    color: #293251;
+}
+
+.notificacao{
+    background-color: #f8d7da;
+    display: none;
+}
+.notificacao p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.icone-clima{
+    width: 300px;
+    height: 128px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.icone-clima i{
+    margin-top: 15px;
+    font-size: 90px;
+    color: #293251;
+}
+
+.temperatura-valor{
+    width: 300px;
+    height: 60px;
+
+}
+.temperatura-valor p{
+    padding: 0;
+    margin: 0;
+    font-size: 4em;
+    text-align: center;
+    color: #293251;
+}
+.temperatura-valor span{
+    color: #293251;
+    font-size: .5em;
+}
+
+.temperatura-descricao{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+.localizacao p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: .7em;
+    color: #293251;
+}
